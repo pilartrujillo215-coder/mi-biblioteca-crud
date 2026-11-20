@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Biblioteca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Mi Biblioteca</h1>
+      <p>Registra los libros que quieres leer, estás leyendo o ya terminaste.</p>
+    </header>
+
+    <section class="panel" aria-labelledby="form-title">
+      <h2 id="form-title">Agregar libro</h2>
+      <div id="form" role="group">
+        <input type="hidden" id="id">
+        <label>Título <input id="titulo" type="text" maxlength="80"></label>
+        <label>Autor <input id="autor" type="text" maxlength="60"></label>
+        <label>Género
+          <select id="genero">
+            <option>Novela</option><option>Ciencia ficción</option><option>Historia</option>
+            <option>Tecnología</option><option>Poesía</option><option>Otro</option>
+          </select>
+        </label>
+        <label>Estado
+          <select id="estado">
+            <option>Pendiente</option><option>Leyendo</option><option>Leído</option>
+          </select>
+        </label>
+        <p id="error" role="alert"></p>
+        <div class="actions">
+          <button id="guardar" class="primary">Guardar libro</button>
+          <button id="cancelar" class="ghost" hidden>Cancelar edición</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="list" aria-labelledby="list-title">
+      <div class="list-head">
+        <h2 id="list-title">Mis libros <span id="contador"></span></h2>
+        <input id="buscar" type="search" placeholder="Buscar por título o autor" aria-label="Buscar libros">
+      </div>
+      <ul id="lista"></ul>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
