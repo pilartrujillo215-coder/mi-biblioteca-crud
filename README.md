@@ -23,8 +23,8 @@ Desarrollada con ayuda de IA para el seminario **Gestión de Software Ágil asis
 
 ## Capturas de pantalla
 > Agrega aquí tus capturas (carpeta `capturas/`):
-> - `![Lista de libros](capturas/lista.png)`
-> - `![Formulario de edición](capturas/editar.png)`
+> - `![Lista de libros](Primera.png)`
+> - `![Formulario de edición](Segunda.png)`
 
 ## Prompts utilizados
 
