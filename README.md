@@ -42,4 +42,4 @@ Desarrollada con ayuda de IA para el seminario **Gestión de Software Ágil asis
 | 10 | "Escribe el README con descripción, tecnologías, instrucciones y la lista de prompts." | Documentar el proyecto para la entrega. |
 
 ## Autor
-Tu nombre — Seminario de Gestión de Software Ágil
+Tu nombre — pilartrujillo215-coder
